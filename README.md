@@ -43,7 +43,7 @@ console.log(map);
    { depth: 1,
      prefix: '<table>',
      suffix: '</table>' },
-  tfood:
+  tfoot:
    { depth: 1,
      prefix: '<table>',
      suffix: '</table>' },

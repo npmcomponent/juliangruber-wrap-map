@@ -36,7 +36,7 @@ var map = {
   }
 };
 
-map.thead = map.tbody = map.tfood = map.colgroup = map.caption = {
+map.thead = map.tbody = map.tfoot = map.colgroup = map.caption = {
   depth: 1,
   prefix: '<table>',
   suffix: '</table>'
