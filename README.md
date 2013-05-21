@@ -5,6 +5,67 @@ Wrap map from jQuery.
 
 ## Usage
 
+```js
+var map = require('wrap-map');
+
+console.log(map);
+
+/* =>
+{ option:
+   { depth: 1,
+     prefix: '<select multiple="multiple">',
+     suffix: '</select>' },
+  optgroup:
+   { depth: 1,
+     prefix: '<select multiple="multiple">',
+     suffix: '</select>' },
+  legend:
+   { depth: 1,
+     prefix: '<fieldset>',
+     suffix: '</fieldset>' },
+  tr:
+   { depth: 2,
+     prefix: '<table><tbody>',
+     suffix: '</tbody></table>' },
+  col:
+   { depth: 2,
+     prefix: '<table><tbody></tbody><colgroup>',
+     suffix: '</colgroup></table>' },
+  _default:
+   { depth: 0,
+     prefix: '',
+     suffix: '' },
+  caption:
+   { depth: 1,
+     prefix: '<table>',
+     suffix: '</table>' },
+  colgroup:
+   { depth: 1,
+     prefix: '<table>',
+     suffix: '</table>' },
+  tfood:
+   { depth: 1,
+     prefix: '<table>',
+     suffix: '</table>' },
+  tbody:
+   { depth: 1,
+     prefix: '<table>',
+     suffix: '</table>' },
+  thead:
+   { depth: 1,
+     prefix: '<table>',
+     suffix: '</table>' },
+  th:
+   { depth: 3,
+     prefix: '<table><tbody><tr>',
+     suffix: '</tr></tbody></table>' },
+  td:
+   { depth: 3,
+     prefix: '<table><tbody><tr>',
+     suffix: '</tr></tbody></table>' } }
+*/
+```
+
 ## Installation
 
 With [npm](http://npmjs.org) do
